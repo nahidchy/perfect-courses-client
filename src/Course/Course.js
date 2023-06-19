@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Course = ({course}) => {
     return (
        <div>
-         <div className='lg:flex gap-5 items-center mb-10'>
+         <div className='lg:flex gap-5 items-center pb-10'>
          <div className='w-full lg:w-1/2'>
          <img className='rounded w-50 mb-4' src={course.img} alt=''></img>
          </div>

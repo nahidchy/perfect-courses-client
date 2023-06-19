@@ -13,10 +13,6 @@ const CourseDetails = () => {
                                 {details.title}
                             </h2>
                             <p>{details.description}</p>
-                            <div className="card-actions justify-end">
-                                <div className="badge badge-outline">Fashion</div>
-                                <div className="badge badge-outline">Products</div>
-                            </div>
                         </div>
                     </div>
     
